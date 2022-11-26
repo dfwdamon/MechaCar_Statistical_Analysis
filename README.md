@@ -20,10 +20,41 @@ This project analyzes metrics that could affect the manufacturing of a prototype
 ## Summary Statistics on Suspension Coils
 
 ### Lot Summary
+![Lot Summary](https://github.com/dfwdamon/MechaCar_Statistical_Analysis/blob/main/S3.png?raw=true)
+
 
 ### Total Summary
+![Lot Summary](https://github.com/dfwdamon/MechaCar_Statistical_Analysis/blob/main/S2.png?raw=true)
 
 ### Suspension Coil Summary
-The overall variance for the entire dataset indicates that the current manufacturing data meets the 100 pounds per square inch variance limitation. However, when separated into three lots, the third lot demonstrates higher variance, the lots are chosen randomly so there is high probability of it not meeting the necessary suspension coils requirement.
-  
+The overall variance for the suspenstion coil dataset indicates the manufacturing data meets the 100 pounds per square inch variance limits. It was noted the third lot reveals a significant variance compared to lots 1 and 2. 
+The third lot should be investigated to determine why is is not meeting the required PSI rating based on the data provided.
 
+<br>
+
+## T-Tests on Suspension Coils
+![T-Tests on Coils](https://github.com/dfwdamon/MechaCar_Statistical_Analysis/blob/main/t-test_coil.png?raw=true)
+
+The t-test shows a significance level of 0.05, and we fail to reject the null hypothesis since the p-value equals 0.06.  The comparison of all manufacturing lots against the mean PSI of the population shows there may be a significant difference.
+
+### T-Test on Entire Lot
+The following three t-tests compared each manufacturing lot against mean PSI of the population.
+
+![Lot Tests](https://github.com/dfwdamon/MechaCar_Statistical_Analysis/blob/main/lot_tests.png?raw=true)
+
+### Lot 1
+At a significance level of 0.05, we fail to reject the null hypothesis since the p-value equals 1. An interesting correlation between p-value and confidence intervals is that as the p-values get larger, the confidence interval becomes smaller, implying more precision in predicting the true population mean.
+
+### Lot 2
+At a significance level of 0.05, we fail to reject the null hypthesis  since the p-value equals 0.6072. 
+
+### Lot 3
+At a significance level of 0.05, we can reject the null hypothesis since the p-value equals 0.04168.  The mean of this sample is smaller than lots 1 and 2. 
+
+
+t.test(Lot1$PSI, mu = 1500) 
+# p-value = 1
+t.test(Lot2$PSI, mu = 1500)
+# p-value = 0.6072
+t.test(Lot3$PSI, mu = 1500)
+# p-value = 0.04168
