@@ -4,7 +4,7 @@
 This project analyzes metrics that could affect the manufacturing of a prototype car and compare vehicle performance across different manufacturer lots. These metrics include vehicle length, weight, spoiler angle, ground clearance, AWD capabilities, MPG and PSI.
 
 ## Linear Regression to Predict MPG
-![Linear Regression]()
+![Linear Regression](https://github.com/dfwdamon/MechaCar_Statistical_Analysis/blob/main/S1.png?raw=true)
 <br>
 ![Linear Regression Summary](.PNG)
 
