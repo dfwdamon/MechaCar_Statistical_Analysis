@@ -51,10 +51,14 @@ At a significance level of 0.05, we fail to reject the null hypthesis  since the
 ### Lot 3
 At a significance level of 0.05, we can reject the null hypothesis since the p-value equals 0.04168.  The mean of this sample is smaller than lots 1 and 2. 
 
+## Study Design: MechaCar vs Competition
 
-t.test(Lot1$PSI, mu = 1500) 
-# p-value = 1
-t.test(Lot2$PSI, mu = 1500)
-# p-value = 0.6072
-t.test(Lot3$PSI, mu = 1500)
-# p-value = 0.04168
+### Statistical Study
+
+
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+In your description, address the following questions:
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
