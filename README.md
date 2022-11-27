@@ -68,6 +68,8 @@ Alternative Hypothesis: MechaCar is not a better value based on its metrics as c
 Both t-tests and multiple linear regression could be used to compare the metric factors of the same class vehicles. 
 
 H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
+
+<br>
 Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
 
 This would determine the correlation of these metrics from MechaCar and the other leading manufacturer models.  The data necessary for the statistical tests would be recent historical data published of same class models below:
