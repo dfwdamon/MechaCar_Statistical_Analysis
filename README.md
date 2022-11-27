@@ -55,10 +55,27 @@ At a significance level of 0.05, we can reject the null hypothesis since the p-v
 
 ### Statistical Study
 
+ A statistical study of MechaCar performance versus competing similar vehicles could be conducted to identify key deciding factors of consumers in their chcoie of vehicle.  This study would include metrics of interest such as vehicle cost, mpg, maintenance costs, safety ratings and warranty limits.
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+### Null and Alternative Hypothesis
+The key factors for MechaCar would be compared to the top 5 similar manufacturer vehicles of the same class based on historical data for the most recent 2 year period.
+
+Null Hypothesis: MechaCar has the same or better metrics in all areas as compared to the top 5 competitors and is an overal better value.
+
+Alternative Hypothesis: MechaCar is not a better value based on its metrics as compared to key factors of the top 5 vehicles in the same class.
+
+### Statistical Test
+Both t-tests and multiple linear regression could be used to compare the metric factors of the same class vehicles. 
+
+H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
+Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
+
+This would determine the correlation of these metrics from MechaCar and the other leading manufacturer models.  The data necessary for the statistical tests would be recent historical data published of same class models below:
+
+Miles Per Gallon ratings (Independent variable)
+Safety Ratings by the same agency (Dependent variable)
+Sales Price (Dependant variable)
+Maintenance Costs (Independent variable)
+Warrany period (Dependentvariable)
+
+A comparison could be shown in a table format showing where each metric stands for MechaCar and its competitors. This would make for quick assessment by individual consumers to easily pinpoint the differences in the metrics.
